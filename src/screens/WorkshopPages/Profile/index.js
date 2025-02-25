@@ -11,7 +11,7 @@ const Profile = () => {
   const ProfileFunctions = (item) => {
     console.log(item)
     if (item.id === 1) {
-      navigation.navigate("EditProfile")
+      navigation.navigate("UpdateWorkerProfile")
     } else if (item.id === 2) {
       console.log("saved beneficiary function run")
     }
@@ -52,7 +52,7 @@ const Profile = () => {
             <Text style={styles.mailText}>worker123@gmail.com</Text>
           </View>
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate("EditProfile")}>
+        <TouchableOpacity onPress={() => navigation.navigate("UpdateWorkerProfile")}>
           <Image style={styles.editImage} resizeMode='contain' source={IMAGES.Edit} />
         </TouchableOpacity>
       </View>

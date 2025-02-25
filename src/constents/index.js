@@ -9,6 +9,15 @@ export const ChatData = [
     { id: 6, name: "Reilly Auto Parts", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.AutoLogo3 },
 ]
 
+export const WorkerChatData = [
+    { id: 1, name: "Mr. Ali", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+    { id: 2, name: "Sufyan Ali", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+    { id: 3, name: "SamiUllah", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+    { id: 4, name: "Shahzaib", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+    { id: 5, name: "Aitisam", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+    { id: 6, name: "Tanveer", discription: "Lorem ipsum dummy text", time: "12:16 pm", image: IMAGES.PROFILE },
+]
+
 export const ChatDetail = [
     { id: 1, sender: "me", message: "Lorem ipsum dummy text" },
     { id: 2, sender: "me", message: "voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat" },

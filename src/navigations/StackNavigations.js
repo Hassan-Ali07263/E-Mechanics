@@ -6,6 +6,7 @@ import { SCREENS } from '../enums/AppEnums';
 import BottomTabs from './BottomTabs';
 import DrawerNavigate from './DrawerNavigate';
 import BottomTabsWorkshop from './BottomTabsWorkshop';
+import UpdateWorkerProfile from '../screens/WorkshopPages/UpdateWorkerProfile';
 
 const StackNavigations = () => {
   const Stack = createNativeStackNavigator();
@@ -27,6 +28,7 @@ const StackNavigations = () => {
         <Stack.Screen name='DrawerNavigate' component={DrawerNavigate} />
         <Stack.Screen name='BottomTabsWorkshop' component={BottomTabsWorkshop} />
         <Stack.Screen name='RegistrationMap' component={ui.RegistrationMap}/>
+        <Stack.Screen name='UpdateWorkerProfile' component={UpdateWorkerProfile}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
