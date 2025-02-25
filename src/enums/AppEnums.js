@@ -1,0 +1,17 @@
+export const SCREENS={
+    LOGIN:"Login",
+    SPLASH:"Splash",
+    USERREGISTER:"UserRegister",
+    WORKSHOPREGISTER:"WorkshopRegister",
+    MAPS:"Maps",
+    HOME:"Home",
+    WORKSHOPS:"Workshops",
+    CHATS:"Chats",
+    PROFILE:"Profile",
+    SUPPORT:"Support",
+    NOTIFICATIONS:"Notifications",
+    CHATSCREEN:"ChatScreen",
+    EDITPROFILE:"EditProfile",
+    WORKSHOPFORGETPASSWORD:"WorkshopForgetPassword",
+    USERFORGETPASSWORD:"UserForgetPassword",
+}
